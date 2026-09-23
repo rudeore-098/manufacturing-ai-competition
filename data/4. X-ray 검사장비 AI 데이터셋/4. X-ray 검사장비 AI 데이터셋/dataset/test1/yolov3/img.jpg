@@ -1,0 +1,16 @@
+import os 
+import shutil
+
+image_dir = "C:/Users/MLP#1/yolov3/X선이물검출기(06.23~09.22)" # img_dir 저장된 위치에 맞게 변환
+file= os.listdir(image_dir)
+for i in range(len(file)):
+  os.mkdir("C:/Users/MLP#1/yolov3/X선검출기" + "/"+ str(i+1) + "호기") # 저장할 주소에 맞게 변환
+for a in file:
+  path = image_dir +"/"+ a
+  file2 = os.listdir(path) 
+  for b in file2:
+    if(b[17:]=="NgImage"):
+      path2 = path+"/"+b
+      file3 = os.listdir(path2)
+      for c in file3:
+        shutil.copy(path2+"/"+c, "C:/Users/MLP#1/yolov3/x선이물검출기"+"/"+a[0]+"호기")

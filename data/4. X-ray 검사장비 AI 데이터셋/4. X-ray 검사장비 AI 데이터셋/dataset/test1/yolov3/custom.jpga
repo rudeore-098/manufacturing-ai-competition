@@ -1,0 +1,5 @@
+classes= 1
+train=C:/MLP/yolov3/train.txt
+valid=C:/MLP/yolov3/test.txt
+names=C:/MLP/yolov3/classes.names
+
