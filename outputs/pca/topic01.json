@@ -1,0 +1,14 @@
+[
+  {
+    "analysis": "01 사출성형기",
+    "reference": "라벨 보유 공정값 중복 제거; 전체 파일 투영",
+    "reference_rows": 1197,
+    "evaluation_rows": 73573,
+    "features": 23,
+    "rank": 23,
+    "PC1_PC2_variance_pct": 36.88108491491619,
+    "components_for_95pct": 17,
+    "residual_components": 17,
+    "residual_model_variance_pct": 96.29611907783307
+  }
+]

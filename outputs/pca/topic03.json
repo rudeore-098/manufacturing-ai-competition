@@ -1,0 +1,26 @@
+[
+  {
+    "analysis": "03 예지보전 원시",
+    "reference": "정상 파일 전체 행 학습; 정상·이상 투영",
+    "reference_rows": 20000,
+    "evaluation_rows": 20600,
+    "features": 3,
+    "rank": 3,
+    "PC1_PC2_variance_pct": 78.94303486710066,
+    "components_for_95pct": 3,
+    "residual_components": 2,
+    "residual_model_variance_pct": 78.94303486710066
+  },
+  {
+    "analysis": "03 예지보전 RMS",
+    "reference": "정상 RMS 창 학습; 정상·이상 RMS 투영",
+    "reference_rows": 14871,
+    "evaluation_rows": 15299,
+    "features": 3,
+    "rank": 3,
+    "PC1_PC2_variance_pct": 98.13388015219496,
+    "components_for_95pct": 2,
+    "residual_components": 2,
+    "residual_model_variance_pct": 98.13388015219496
+  }
+]

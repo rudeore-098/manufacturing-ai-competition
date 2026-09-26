@@ -1,0 +1,14 @@
+[
+  {
+    "analysis": "04 X-ray 픽셀",
+    "reference": "고유 이미지 전체; 중심화만 적용; 학습 내 오차",
+    "reference_rows": 15,
+    "evaluation_rows": 15,
+    "features": 3672,
+    "rank": 14,
+    "PC1_PC2_variance_pct": 70.68860110673324,
+    "components_for_95pct": 8,
+    "residual_components": 8,
+    "residual_model_variance_pct": 95.72388314528774
+  }
+]

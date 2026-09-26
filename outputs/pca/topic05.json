@@ -1,0 +1,14 @@
+[
+  {
+    "analysis": "05 자원 최적화",
+    "reference": "유효 시각 전체 행; 생산 여부별 비교",
+    "reference_rows": 6120,
+    "evaluation_rows": 6120,
+    "features": 9,
+    "rank": 9,
+    "PC1_PC2_variance_pct": 52.926550818493936,
+    "components_for_95pct": 7,
+    "residual_components": 7,
+    "residual_model_variance_pct": 96.33228009700758
+  }
+]

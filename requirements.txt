@@ -7,3 +7,4 @@ ipykernel
 openpyxl
 scipy
 Pillow
+scikit-learn

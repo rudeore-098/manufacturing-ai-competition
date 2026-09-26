@@ -17,7 +17,7 @@ from nbclient import NotebookClient
 from jupyter_client import KernelManager
 
 for topic in map(int, sys.argv[1:]):
-    path = ROOT / f'notebooks/{topic:02d}_topic_{topic:02d}_eda.ipynb'
+    path = ROOT / ('notebooks/06_topic_comparison.ipynb' if topic == 6 else f'notebooks/{topic:02d}_topic_{topic:02d}_eda.ipynb')
     nb = nbformat.read(path, as_version=4)
     km = KernelManager(kernel_name='python3')
     km.kernel_spec.argv = [sys.executable, '-m', 'ipykernel_launcher', '-f', '{connection_file}']

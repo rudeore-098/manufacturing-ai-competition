@@ -1,0 +1,14 @@
+[
+  {
+    "analysis": "02 용접기",
+    "reference": "원본 전체 행; 작업 날짜별 투영",
+    "reference_rows": 11939,
+    "evaluation_rows": 11939,
+    "features": 4,
+    "rank": 4,
+    "PC1_PC2_variance_pct": 62.18209199500484,
+    "components_for_95pct": 4,
+    "residual_components": 3,
+    "residual_model_variance_pct": 85.29953280178688
+  }
+]
